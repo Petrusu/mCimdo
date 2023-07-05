@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MCimdo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">#99BDB0</item>
+    </style>
+
+    <style name="Theme.MCimdo" parent="Base.Theme.MCimdo" />
+</resources>

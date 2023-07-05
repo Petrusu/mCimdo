@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="134dp"
+        android:layout_height="53dp"
+        android:text="Sing Up"
+        android:textAlignment="center"
+        android:textColor="#69516B"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <EditText
+        android:id="@+id/logEdit"
+        android:layout_width="257dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#69516B"
+        android:hint="Login"
+        android:textColor="#69516B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/emailEdit"
+        android:layout_width="257dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#69516B"
+        android:hint="E-mail"
+        android:textColor="#69516B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logEdit"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <EditText
+        android:id="@+id/passEdit"
+        android:layout_width="257dp"
+        android:layout_height="71dp"
+        android:hint="Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEdit"
+        app:layout_constraintVertical_bias="0.119" />
+
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="198dp"
+        android:layout_height="61dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passEdit"
+        app:layout_constraintVertical_bias="0.367"
+        android:text="Sing Up"
+        android:backgroundTint="#52756F"
+        android:textColor="#E7F2E8"
+        android:textSize="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

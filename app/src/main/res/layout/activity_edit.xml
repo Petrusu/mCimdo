@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="134dp"
+        android:layout_height="53dp"
+        android:text="Edit"
+        android:textAlignment="center"
+        android:textColor="#69516B"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <EditText
+        android:id="@+id/logEdit"
+        android:layout_width="257dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#69516B"
+        android:hint="Login"
+        android:textColor="#69516B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <EditText
+        android:id="@+id/emailEdit"
+        android:layout_width="257dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#69516B"
+        android:hint="E-mail"
+        android:textColor="#69516B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_login" />
+
+    <EditText
+        android:id="@+id/passEdit"
+        android:layout_width="257dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_email" />
+
+    <Button
+        android:id="@+id/edit_password"
+        android:layout_width="198dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="#52756F"
+        android:text="Edit password"
+        android:textColor="#E7F2E8"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passEdit" />
+
+    <Button
+        android:id="@+id/edit_email"
+        android:layout_width="198dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="236dp"
+        android:backgroundTint="#52756F"
+        android:text="Edit e-mail"
+        android:textColor="#E7F2E8"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEdit"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/edit_login"
+        android:layout_width="198dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="396dp"
+        android:backgroundTint="#52756F"
+        android:text="Edit login"
+        android:textColor="#E7F2E8"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logEdit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
